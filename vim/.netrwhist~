@@ -1,4 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/ned/Documents/Calibre Bibliotek'
-let g:netrw_dirhist_2='/home/ned/Dropbox/Skole/gym/da/2015-02-17 Ebbe Skammelsøn og Arven'
