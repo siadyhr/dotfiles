@@ -1,0 +1,5 @@
+pcm.loop {
+	type plug
+	slave.pcm "hw:Loopback,1,0"
+}
+# </home/ned/.asoundrc.asoundconf>

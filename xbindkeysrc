@@ -1,0 +1,49 @@
+#Increase brightness
+"xbacklight -inc 5"
+	XF86MonBrightnessUp
+#Decreaso brightness
+"xbacklight -dec 5"
+	XF86MonBrightnessDown
+
+#Increase Volume
+"/home/ned/bin/vol.zsh + :0"
+	XF86AudioRaiseVolume
+#"amixer -q sset Master 3%+"
+#	XF86AudioRaiseVolume
+#"pulseaudio-ctl up"
+#	XF86AudioRaiseVolume
+#Decrease Volume
+"/home/ned/bin/vol.zsh -"
+	XF86AudioLowerVolume
+#"amixer -q sset Master 3%-"
+#	XF86AudioLowerVolume
+#"pulseaudio-ctl down"
+#	XF86AudioLowerVolume
+#Mute/unmute
+"amixer -q sset Master toggle"
+	XF86AudioMute
+"pulseaudio-ctl mute"
+	XF86AudioMute
+#Play/pause
+#"playerctl play-pause"
+#	XF86AudioPlay
+"cmus-remote -u"
+	XF86AudioPlay
+#Next
+#"playerctl next"
+#	XF86AudioNext
+"cmus-remote -n"
+	XF86AudioNext
+#Previous
+#"playerctl previous"
+	XF86AudioPrev
+"cmus-remote -r"
+	XF86AudioPrev
+#F6 til midterklik
+"xdotool click 2"
+	XF86KbdBrightnessUp
+#F5 til højre
+"xdotool click 3"
+	XF86KbdBrightnessDown
+#"xte 'key space'"
+#	XF86AudioPlay

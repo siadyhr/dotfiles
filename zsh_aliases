@@ -1,0 +1,25 @@
+alias sudo='sudo '
+
+alias minecraft='cd /home/siad/Spil; java -jar Minecraft.jar'
+alias sluk='sudo shutdown -hP'
+
+alias fallout='playonlinux --run Fallout'
+
+alias visudo='EDITOR=nano visudo'
+alias ls='ls --color'
+
+#15 Marts, skift baggrund
+files=(/media/500GB/Pictures/Skrivebordsbaggrunde/*/*)
+alias skiftBg='printf "%s\n" "${files[RANDOM % ${#files[@]}]}";feh --bg-scale "$(printf "%s\n" "${files[RANDOM % ${#files[@]}]}")"'
+nsfwfiles=(/media/500GB/Pictures/.H/wallpapers/*/*)
+alias skiftBgNSFW='printf "%s\n" "${nsfwfiles[RANDOM % ${#nsfwfiles[@]}]}";feh --bg-scale "$(printf "%s\n" "${nsfwfiles[RANDOM % ${#nsfwfiles[@]}]}")"'
+
+alias pac='pacman'
+alias pacs='sudo pacman'
+alias widgets='nohup orage&nohup xclock&gnome-weather&'
+
+alias aliaskopi='cp .aliases .bash_aliases; cp .aliases .zsh_aliases'
+
+alias tak='sudo $(history -n -1)'
+
+alias scrot='scrot -e 'mv $f ~/usr/Billeder/Screenshots''

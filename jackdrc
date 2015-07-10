@@ -1,0 +1,1 @@
+/usr/bin/jackd -u -dalsa -r44100 -p128 -n3 -m -H -M -Xraw -D -Chw:Intel,0 -Phw:Intel,0

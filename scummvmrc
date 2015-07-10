@@ -1,0 +1,30 @@
+[scummvm]
+lastselectedgame=gob1cd-us
+browser_lastpath=/media/500GB/Spil/gobliiins_pack/Gobliiins Pack/Goblins 3
+mute=false
+versioninfo=1.7.0
+
+[gob1cd-us]
+platform=pc
+gameid=gob
+description=Gobliiins CD (v1.02/DOS/English (US))
+language=us
+path=/media/500GB/Spil/gobliiins_pack/Gobliiins Pack/Gobliiins
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English (US)
+
+[gob2cd]
+platform=pc
+gameid=gob
+description=Gobliins 2 CD (v2.01/DOS/English)
+language=en
+path=/media/500GB/Spil/gobliiins_pack/Gobliiins Pack/Gobliins 2
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English
+
+[gob3cd]
+platform=pc
+gameid=gob
+description=Goblins Quest 3 CD (v1.02/DOS/English)
+language=en
+path=/media/500GB/Spil/gobliiins_pack/Gobliiins Pack/Goblins 3
+guioptions=sndNoSubs sndNoSpeech launchNoLoad lang_English
+

@@ -1,0 +1,6 @@
+[DEFAULT]
+editor = vim
+pygments_theme = default
+data = /home/ned/Dokumenter/Skole/gym/noter.pynote
+dateformat = Y-m-d H:M
+
